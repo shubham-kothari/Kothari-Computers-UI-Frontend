@@ -64,7 +64,7 @@ function App() {
       {/* Hero Section */}
       <div className={`${isDarkMode ? 'bg-blue-800' : 'bg-blue-600'} text-white py-20`}>
         <div className="container mx-auto px-4">
-          <h1 className="text-5xl font-bold mb-4">Your Tech Solutions Partner</h1>
+          <h1 className="text-5xl font-bold mb-4">Kothari Computers</h1>
           <p className="text-xl mb-8">Premium computers, laptops, and IT services</p>
           <button className={`${isDarkMode ? 'bg-gray-900 hover:bg-gray-800' : 'bg-white hover:bg-blue-50'} text-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors`}>
             Shop Now

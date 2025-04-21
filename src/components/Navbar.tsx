@@ -11,15 +11,15 @@ function Navbar() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
             <Monitor className="w-8 h-8 text-blue-600" />
-            <span className="text-xl font-bold">TechStore</span>
+            <span className="text-xl font-bold">Kothari Computers</span>
           </div>
           <div className="hidden md:flex space-x-8">
             <a href="#" className={`${isDarkMode ? 'text-gray-300 hover:text-white' : 'text-gray-700 hover:text-blue-600'}`}>Home</a>
             <a href="#products" className={`${isDarkMode ? 'text-gray-300 hover:text-white' : 'text-gray-700 hover:text-blue-600'}`}>Products</a>
             <a href="#services" className={`${isDarkMode ? 'text-gray-300 hover:text-white' : 'text-gray-700 hover:text-blue-600'}`}>Services</a>
             <a href="#contact" className={`${isDarkMode ? 'text-gray-300 hover:text-white' : 'text-gray-700 hover:text-blue-600'}`}>Contact</a>
-            <a href="https://www.jainuniversity.ac.in/result" target="_blank" rel="noopener noreferrer" className={`${isDarkMode ? 'text-gray-300 hover:text-white' : 'text-gray-700 hover:text-blue-600'}`}>
-              Jain Exam Result
+            <a href="https://results.kotharicomputers.com" target="_blank" rel="noopener noreferrer" className={`${isDarkMode ? 'text-gray-300 hover:text-white' : 'text-gray-700 hover:text-blue-600'}`}>
+            अखिल भारतीय सुधर्म जैन संस्कृति परीक्षा परिणाम (2025)
             </a>
           </div>
           <div className="flex items-center space-x-4">
